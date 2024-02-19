@@ -6,7 +6,7 @@ import ShopCategory from './pages/ShopCategory.jsx';
 import Product from './pages/Product.jsx';
 import Cart from './pages/Cart.jsx';
 import LoginSignup from './pages/LoginSignup.jsx';
-
+import Hero from "./components/hero/Hero.jsx";
 
 function App() {
   
@@ -14,7 +14,7 @@ function App() {
   return (
     <>
     <BrowserRouter>
-      <Navbar/>  
+      <Navbar/> 
       <Routes>
             <Route path="/" element ={<Home/>}/>
             <Route path="/men" element ={<ShopCategory category ="men"/>}/>
