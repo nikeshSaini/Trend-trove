@@ -7,6 +7,7 @@ import Product from './pages/Product.jsx';
 import Cart from './pages/Cart.jsx';
 import LoginSignup from './pages/LoginSignup.jsx';
 import Hero from "./components/hero/Hero.jsx";
+import Footer from "./components/footer/footer.jsx";
 
 function App() {
   
@@ -25,6 +26,7 @@ function App() {
             <Route path="/cart" element ={<Cart/>}/>
             <Route path="/login" element ={<LoginSignup/>}/>
       </Routes>
+      <Footer/>
     </BrowserRouter>
       
     </>
