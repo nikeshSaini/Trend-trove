@@ -13,10 +13,12 @@ export default function Navbar(){
     return(
        
         <div className="navbar">
-            <div className="navlogo">
+            <Link to='\' className="navlogo">
                 <img src={logo} alt="" />
                 <p>Trend Trove</p>
-            </div>
+            </Link>
+                
+         
             <ul className='nav-menu'>
                 <li onClick={()=>menuOnclick("home")}><Link exact  to="/">Home</Link></li>
                 <li onClick={()=>menuOnclick("men")}><Link to="/men">Men</Link></li>
