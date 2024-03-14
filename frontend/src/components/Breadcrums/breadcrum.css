@@ -1,0 +1,7 @@
+.breadcrum{
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    gap: 4px;
+    padding-left: 40px;
+}
