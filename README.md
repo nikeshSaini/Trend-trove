@@ -1,4 +1,4 @@
-Here's a sample description you could use for your GitHub repository for your MERN stack e-commerce apparel website:
+
 
 ---
 
