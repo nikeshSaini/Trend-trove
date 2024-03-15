@@ -21,17 +21,14 @@ This repository contains the source code for an e-commerce website built using t
 - **Frontend**: React.js, HTML, CSS
 - **Backend**: Node.js, Express.js
 - **Database**: MongoDB
-- **Authentication**: JSON Web Tokens (JWT)
-- **Other Libraries and Tools**: React Router, Axios, Bootstrap, Redux (optional), etc.
 
 ## Getting Started:
 
-1. Clone the repository: `git clone https://github.com/yourusername/your-repo.git`
+1. Clone the repository: `https://github.com/nikeshSaini/Trend-trove.git`
 2. Install dependencies: `cd your-repo && npm install`
-3. Configure environment variables: Create a `.env` file based on the provided `.env.example`.
-4. Start the backend server: `npm start` (in the `server` directory)
-5. Start the frontend development server: `npm start` (in the `client` directory)
-6. Open your browser and navigate to `http://localhost:3000` to view the website.
+3. Start the backend server: `node app.js` (in the `server` directory)
+4. Start the frontend development server: `npm run dev` (in the `client` directory)
+5. Open your browser and navigate to `http://localhost:5173` to view the website.
 
 ## Contributing:
 
@@ -39,8 +36,7 @@ Contributions are welcome! Please feel free to fork this repository, make improv
 
 ## License:
 
-This project is licensed under the [MIT License](LICENSE).
+This project is licensed under the Nikesh Saini.
 
 ---
 
-Make sure to replace placeholders like `yourusername`, `your-repo`, and `your-email` with your actual GitHub username, repository name, and email address. Adjust the description as needed to accurately reflect your project.
