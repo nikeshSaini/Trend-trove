@@ -51,12 +51,20 @@ export default function CartItem(){
                         <hr />
                         <div className="cartitem-total-item">
                             <p>Shipping fee</p>
-                            <p>{gettotalamount()>100?"Free" :"$5"}</p>
+                            <p>
+                                {gettotalamount() === 0 ? "$0" : (
+                                    gettotalamount() > 100 ? "Free" : "$5"
+                                )}
+                                </p>
+
                         </div>
                         <hr />
                         <div className="cartitem-total-item">
                             <h3>Total</h3>
-                            <h3>${gettotalamount()>100?gettotalamount():gettotalamount()+5}</h3>
+                            <h3>
+                            ${gettotalamount() === 0 ? 0 : (gettotalamount() > 100 ? gettotalamount() : gettotalamount() + 5)}
+                            </h3>
+
                         </div>
 
                     </div>
